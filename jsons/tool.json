@@ -26,22 +26,13 @@
             "url": "https://github.com/SIMEXP/psom/"
         },
         {
-            "author": "gkiar",
-            "boutiquesdescriptor": "https://github.com/neurodata/boutiques-tools//master/cbrain_task_descriptors/ndmg-docker.json",
+            "author": "Greg Kiar",
+            "boutiquesdescriptor": "https://raw.githubusercontent.com/neurodata/boutiques-tools/master/cbrain_task_descriptors/ndmg-docker.json",
             "description": "dwi connectome estimation pipeline",
-            "dockercontainer": "index.docker.io/neurodata/ndmg:v0.0.50",
+            "dockercontainer": "https://hub.docker.com/r/neurodata/ndmg",
             "identity": "nl:ndmg",
             "label": "ndmg",
-            "url": "http://example.com"
-        },
-        {
-            "author": "gkiar",
-            "boutiquesdescriptor": "https://github.com/neurodata/boutiques-tools//master/cbrain_task_descriptors/ndmg-singularity.json",
-            "description": "dwi connectome estimation pipeline",
-            "identity": "nl:ndmg",
-            "label": "ndmg",
-            "singularitycontainer": "shub://gkiar/ndmg-cbrain:master",
-            "url": "http://example.com"
+            "url": "https://boutiques.github.io"
         }
     ],
     "ontologies": [
